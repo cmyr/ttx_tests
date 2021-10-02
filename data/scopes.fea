@@ -1,0 +1,21 @@
+languagesystem DFLT dflt;
+
+@b = [a c];
+
+lookup please {
+@b = [z y];
+} please;
+
+feature liga {
+    @b = [d f];
+
+    lookup please;
+
+    lookup thanks {
+        # what '@b' does this refer to?
+        sub @b by g;
+    } thanks;
+
+    # what '@b' does this refer to?
+    sub @b by a;
+} liga;

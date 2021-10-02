@@ -1,0 +1,25 @@
+languagesystem DFLT dflt;
+
+#lookup hmmm {
+#    sub d by e;
+#} hmmm;
+
+@b = [b c];
+# Ligature formation
+feature test {
+    #substitute a d' d by d.alt;
+    #substitute a d' lookup hmmm d by b;
+    #substitute a from @b;
+    #substitute @b by NULL;
+
+    #substitute f i by f_i;
+    enum pos @b @b -20;
+    enum pos c d 20;
+    #sub @b by c t;
+ #   sub A from [A.alt1 A.alt2];
+} test;
+
+# Kerning
+# feature kern {
+#    position A Y -100;
+# } kern;

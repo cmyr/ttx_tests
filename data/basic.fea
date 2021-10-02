@@ -1,0 +1,13 @@
+languagesystem DFLT dflt;
+
+# Ligature formation
+feature liga {
+    substitute f i by g;
+    sub h by c t;
+ #   sub A from [A.alt1 A.alt2];
+} liga;
+
+# Kerning
+# feature kern {
+#    position A Y -100;
+# } kern;

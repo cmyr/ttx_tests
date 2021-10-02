@@ -1,0 +1,13 @@
+# this errors on afdko, works in fonttools
+
+feature test {
+
+  lookup please {
+    lookupflag 5;
+    pos a -20;
+    script hang;
+    pos b 20;
+  } please;
+
+  lookup please;
+} test;

@@ -1,0 +1,12 @@
+languagesystem DFLT ENG;
+feature locl {
+    script DFLT; language ENG ;
+    sub a by b;
+
+	# Many lines of stuff here
+} locl;
+feature locl {
+    # Did I do English already? I forget. Let's do English.
+    script DFLT; language ENG ;
+    sub c by d;
+} locl;

@@ -1,0 +1,16 @@
+languagesystem DFLT dflt;
+
+# Ligature formation
+feature liga {
+    sub f i by f_i;
+    lookupflag 6;
+    sub c_t by c t;
+    language DEU;
+        sub f f by f_f;
+ #   sub A from [A.alt1 A.alt2];
+} liga;
+
+# Kerning
+# feature kern {
+#    position A Y -100;
+# } kern;

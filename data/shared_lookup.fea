@@ -1,0 +1,19 @@
+languagesystem DFLT dflt;
+languagesystem latn DEU;
+
+lookup weee {
+    sub a by b;
+    sub c by d;
+
+} weee;
+
+feature blah {
+    sub e by f;
+    script arab;
+    #lookup weee;
+    script latn;
+} blah;
+
+feature meh {
+    lookup weee;
+} meh;

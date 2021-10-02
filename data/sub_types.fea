@@ -1,0 +1,30 @@
+gitlanguagesystem DFLT dflt;
+
+lookup hmmm {
+    sub d by e;
+} hmmm;
+
+@b = [b c];
+@g = [d @b];
+# Ligature formation
+feature test {
+    #substitute a d' d by d.alt;
+    #substitute a d' lookup hmmm d by b;
+    substitute a from @b;
+    sub c from [b @b];
+    #substitute @b by NULL;
+
+    #substitute f i by f_i;
+    #sub @b by c t;
+ #   sub A from [A.alt1 A.alt2];
+} test;
+
+#feature bads {
+#    sub a by [b-z];
+#    sub a from g; # NOT ALLOWED
+#} bads;
+
+# Kerning
+# feature kern {
+#    position A Y -100;
+# } kern;

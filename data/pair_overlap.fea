@@ -1,0 +1,14 @@
+languagesystem DFLT dflt;
+
+# Ligature formation
+feature kern {
+#pos [Y.sc] [ampersand semicolon] -55;
+pos [Y X] period -50;
+#subtable;
+pos [a Y.sc] comma -60;
+} kern;
+
+# Kerning
+# feature kern {
+#    position A Y -100;
+# } kern;

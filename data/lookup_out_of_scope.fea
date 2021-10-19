@@ -1,0 +1,11 @@
+
+feature heck {
+    lookup ello {
+        sub a by b;
+    } ello;
+    lookup ello;
+} heck;
+
+feature crap {
+    lookup ello;
+} crap;

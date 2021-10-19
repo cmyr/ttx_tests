@@ -1,0 +1,9 @@
+# fonttools ignores extraneous semis, afdko errors
+
+feature hell {
+    sub a by b;
+    ;
+    ;
+} hell;
+;
+;

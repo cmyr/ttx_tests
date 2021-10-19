@@ -1,4 +1,4 @@
-gitlanguagesystem DFLT dflt;
+languagesystem DFLT dflt;
 
 lookup hmmm {
     sub d by e;
